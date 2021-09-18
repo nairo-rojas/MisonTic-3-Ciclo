@@ -14,42 +14,18 @@ ul {
     padding: 10px;
 }
 
-.button {
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.buscar:focus-within {
+    border: 1px solid blue;
+}
+
+.buscar>input {
+    outline: none;
     border: 0px;
-    padding: 5px 10px;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-.button:hover {
-    cursor: pointer;
-    transform: scale(1.2);
-}
-
-.mainButton {
-    background-color: rgb(65, 204, 52);
-    color: white;
-}
-
-.mainButton:hover {
-    cursor: pointer;
-    box-shadow: 5px 5px gray;
-    transform: scale(1.2);
-}
-
-.secundaryButton {
-    background-color: blue;
-    color: white;
-    cursor: hand;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    box-shadow: 2px 2px green;
-}
-
-.secundaryButton:hover {
-    cursor: pointer;
-    box-shadow: 5px 5px gray;
-    transform: scale(1.2);
 }
