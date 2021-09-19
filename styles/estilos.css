@@ -6,6 +6,9 @@ body {
     margin: 0 px
 }
 
+
+/*crear una clase para la lista de botones y ajustar sus estilos con flex*/
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -31,10 +34,15 @@ body {
     transform: scale(1.2);
 }
 
+/*crear una clase para botones principales y ajustar sus caracteristicas*/
+
 .mainButton {
     background-color: rgb(65, 204, 52);
-    color: white;
+  color: white;
 }
+
+
+/*agregar un subclase a la clase del boton principal para hacer otros ajustes*/
 
 .mainButton:hover {
     cursor: pointer;
