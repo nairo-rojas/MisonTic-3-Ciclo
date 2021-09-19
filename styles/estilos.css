@@ -8,22 +8,30 @@ ul {
     margin: 0;
 }
 
+
+/*crear una clase para la lista de botones y ajustar sus estilos con flex*/
+
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
 
+
+/*crear una clase para botones principales y ajustar sus caracteristicas*/
+
 .mainButton {
     background-color: rgb(65, 204, 52);
     color: white;
-    cursor: hand;
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bold;
     box-shadow: 2px 2px green;
 }
+
+
+/*agregar un subclase a la clase del boton principal para hacer otros ajustes*/
 
 .mainButton:hover {
     cursor: pointer;
