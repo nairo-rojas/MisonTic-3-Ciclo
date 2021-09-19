@@ -1,13 +1,15 @@
-ul {
-    list-style: none;
-}
 
-body {
-    margin: 0 px
-}
-
-
-/*crear una clase para la lista de botones y ajustar sus estilos con flex*/
+    /*quitar los estilos a la lista*/
+    
+    ul {
+        list-style: none;
+    }
+    /*quitar el margen por defecto que trae el body*/
+    
+    body {
+        margin: 0 px
+    }
+  /*crear una clase para la lista de botones y ajustar sus estilos con flex*/
 
 .navbar {
     display: flex;
@@ -16,6 +18,7 @@ body {
     margin: 0px;
     padding: 10px;
 }
+
 /*crear una clase para el boton buscar y aplicarle unas propiedades*/
 
 .buscar {
