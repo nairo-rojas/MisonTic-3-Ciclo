@@ -1,19 +1,18 @@
-body {
-    margin: 0
-}
-
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+}
+
+body {
+    margin: 0 px
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
     padding: 10px;
 }
-
 
 /*crear una clase para un boton generico y agregarle estilos*/
 
@@ -52,4 +51,6 @@ ul {
     cursor: pointer;
     box-shadow: 5px 5px gray;
     transform: scale(1.2);
+.logo {
+    height: 35px;
 }
