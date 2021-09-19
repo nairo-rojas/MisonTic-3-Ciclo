@@ -80,7 +80,8 @@ body {
 .secundaryButton:hover {
     cursor: pointer;
     box-shadow: 5px 5px gray;
-    transform: scale(1.2);
+  transform: scale(1.2);
+}
 .logo {
     height: 35px;
 }
