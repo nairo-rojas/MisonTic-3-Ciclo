@@ -14,14 +14,20 @@ ul {
     padding: 10px;
 }
 
-.button {
+
+/*crear una clase para un boton generico y agregarle estilos*/
+
+.botonGenerico {
     border: 0px;
     padding: 5px 10px;
     font-weight: bold;
     border-radius: 10px;
 }
 
-.button:hover {
+
+/*crear una subclasse al boton generico y agregarle estilos*/
+
+.botonGenerico:hover {
     cursor: pointer;
     transform: scale(1.2);
 }
@@ -40,12 +46,6 @@ ul {
 .secundaryButton {
     background-color: blue;
     color: white;
-    cursor: hand;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bold;
-    box-shadow: 2px 2px green;
 }
 
 .secundaryButton:hover {
