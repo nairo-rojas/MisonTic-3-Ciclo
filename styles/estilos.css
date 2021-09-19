@@ -1,3 +1,4 @@
+
     /*quitar los estilos a la lista*/
     
     ul {
@@ -8,12 +9,82 @@
     body {
         margin: 0 px
     }
-    /*ajustar con una clase la distribución de la lista => display*/
-    
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px;
-        margin: 0px;
-        padding: 10px;
-    }
+  /*crear una clase para la lista de botones y ajustar sus estilos con flex*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    padding: 10px;
+}
+
+/*crear una clase para el boton buscar y aplicarle unas propiedades*/
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+
+/*crear una subclase para el boton buscar y aplicarle unas propiedades*/
+
+.buscar:focus-within {
+    border: 1px solid blue;
+}
+
+
+/*crear otra subclase para el boton buscar y aplicarle unas propiedades*/
+
+.buscar>input {
+    outline: none;
+    border: 0px;
+}
+/*crear una clase para un boton generico y agregarle estilos*/
+
+.botonGenerico {
+    border: 0px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/*crear una subclasse al boton generico y agregarle estilos*/
+
+.botonGenerico:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/*crear una clase para botones principales y ajustar sus caracteristicas*/
+
+.mainButton {
+    background-color: rgb(65, 204, 52);
+  color: white;
+}
+
+
+/*agregar un subclase a la clase del boton principal para hacer otros ajustes*/
+
+.mainButton:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+    transform: scale(1.2);
+}
+
+.secundaryButton {
+    background-color: blue;
+    color: white;
+}
+
+.secundaryButton:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+  transform: scale(1.2);
+}
+.logo {
+    height: 35px;
+}
